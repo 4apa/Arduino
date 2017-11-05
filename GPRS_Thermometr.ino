@@ -28,7 +28,7 @@ char phone[16];
 // дата отправки сообщения
 char datetime[24];
 //интервал отправки сообщений в мс
-const unsigned long PERIOD = 43200000; //43200000 = 24 часа
+const unsigned long PERIOD = 86400000; //86400000 = 24 часа
 //последнее время отправки температуры
 unsigned long lastTime = 0;
 
